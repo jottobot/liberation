@@ -40,7 +40,7 @@ class events extends Component {
           <img src={pic} alt="April conference" height="300px" style={{ borderRadius: "4px"}}/>
           </Col>
           <Col>
-            <img src={sched} alt="April schedule" height="300px" />
+            <img src={sched} alt="April schedule" width="355px" />
           </Col>
         </Row>
 
