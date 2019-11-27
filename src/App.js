@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="demo-big-content">
     <Layout>
-      <Header style={{ backgroundColor: "black" }} title={<Link style={{ textDecoration: 'none', color: 'yellow' }} to="/">Liberation NYC</Link>} scroll>
+      <Header style={{ backgroundColor: "black" }} title={<Link style={{ textDecoration: 'none', color: 'red' }} to="/">Liberation NYC</Link>} scroll>
         <Navigation>
           <Link to="/events">Events</Link>
           <Link to="/volunteer">Volunteer</Link>
