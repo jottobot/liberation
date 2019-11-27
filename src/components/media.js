@@ -7,11 +7,11 @@ class media extends Component {
     return (
       <div style={{ textAlign: "center" }}>
       <Row>
-        <Col style={{ backgroundColor: "black", height: "600px" }}>
-          <h1 style={{ color: "white", marginTop: "220px" }}>Media</h1>
-        </Col>
         <Col>
           <img src={logo} alt="logo" height="300px" style= {{ marginTop: "120px"}} />
+        </Col>
+        <Col style={{ backgroundColor: "black", height: "600px" }}>
+          <h1 style={{ color: "white", marginTop: "220px" }}>Media</h1>
         </Col>
       </Row>
 
