@@ -18,20 +18,26 @@ class events extends Component {
             <img src={logo} alt="logo" height="300px" style={{ marginTop: "120px" }} />
           </Col>
           <Col lg={6} xs={12} style={{ backgroundColor: "black", height: "600px" }}>
-            <h1 className="header" style={{ color: "white", marginTop: "220px" }}>Events</h1>
+            <h1 className="header" style={{ color: "white", marginTop: "220px", textTransform: "uppercase", fontFamily: "'Montserrat', sans-serif", letterSpacing: ".6px" }}>Events</h1>
           </Col>
         </Row>
 
-        <Row style={{ marginTop: "100px", paddingLeft: "80px", paddingRight: "80px", textAlign: "center" }}>
+        <Row style ={{textAlign: "center"}}>
           <Col>
-            <p style={{ fontSize: "25px" }}>We are so excited to be hosting NYC’s <strong>first</strong> animal liberation conference of its kind April 9-13th 2020.
+          <h2 style={{ textTransform: "uppercase", fontFamily: "'Montserrat', sans-serif", color: "red", padding: "30px", textAlign: "center" }}>What's Happening</h2>
+          </Col>     
+        </Row>
+
+        <Row style={{ paddingLeft: "80px", paddingRight: "80px", textAlign: "center" }}>
+          <Col>
+            <p style={{ fontSize: "25px", fontFamily: "'Quicksand', sans-serif", paddingLeft: "60px", paddingRight: "60px" }}>We are so excited to be hosting NYC’s <strong>first</strong> animal liberation conference of its kind April 9-13th 2020.
             <br />
             </p>
-            <Button variant="outline-danger" href={"https://www.eventbrite.com/e/animal-liberation-new-york-city-conference-2020-tickets-70404775579?fbclid=IwAR3reX_KNAHWTB5E1EtGn6HlEUo4oG-NHt7qSQmeYHwAj1S8KewUIbtX8ds"} rel="noopener noreferrer" target="_blank">Tickets</Button>
+            <Button variant="outline-danger" href={"https://www.eventbrite.com/e/animal-liberation-new-york-city-conference-2020-tickets-70404775579?fbclid=IwAR3reX_KNAHWTB5E1EtGn6HlEUo4oG-NHt7qSQmeYHwAj1S8KewUIbtX8ds"} rel="noopener noreferrer" target="_blank" style={{ fontFamily: "'Quicksand', sans-serif"}}>Tickets</Button>
 
-            <Button variant="outline-danger" href={"https://www.facebook.com/events/385663858818195/"} rel="noopener noreferrer" target="_blank">Event Details</Button>
+            <Button variant="outline-danger" href={"https://www.facebook.com/events/385663858818195/"} rel="noopener noreferrer" target="_blank" style={{ fontFamily: "'Quicksand', sans-serif"}}>Event Details</Button>
 
-            <Button variant="outline-danger" href={"https://www.facebook.com/groups/404131443875212/"} rel="noopener noreferrer" target="_blank">Housing and Carpool</Button>
+            <Button variant="outline-danger" href={"https://www.facebook.com/groups/404131443875212/"} rel="noopener noreferrer" target="_blank" style={{ fontFamily: "'Quicksand', sans-serif"}}>Housing and Carpool</Button>
 
           </Col>
         </Row>
@@ -47,7 +53,8 @@ class events extends Component {
 
         <Row style={{ backgroundColor: "black" }}>
           <Col>
-            <p style={{ color: "white" }}>April 9th Cube Of Truth New York City Takeover:</p>
+            <p style={{ color: "white", fontFamily: "'Quicksand', sans-serif", padding: "10px", fontSize: "20px" }}>April 9th, 2020</p>
+            <p style={{ color: "white", fontFamily: "'Quicksand', sans-serif", paddingBottom: "20px", fontSize: "30px" }}>Cube Of Truth New York City Takeover</p>
             <img src={cube} alt="Cube of truth" height="400px" />
             <br />
             <Button variant="outline-danger" href={"https://www.facebook.com/groups/404131443875212/"} rel="noopener noreferrer" target="_blank">Event Details</Button>
@@ -57,7 +64,8 @@ class events extends Component {
 
         <Row style={{ marginTop: "50px" }}>
           <Col>
-            <p>April 10th Animal Liberation March:</p>
+            <p style={{ color: "black", fontFamily: "'Quicksand', sans-serif", padding: "10px", fontSize: "20px" }}>April 10th, 2020</p>
+            <p style={{ color: "black", fontFamily: "'Quicksand', sans-serif", paddingBottom: "20px", fontSize: "30px" }}>Liberation March</p>
             <img src={liberation} alt="" height="400px" />
             <br />
             <Button variant="outline-danger" href={"https://www.facebook.com/events/2299941513650929/"} rel="noopener noreferrer" target="_blank">Event Details</Button>

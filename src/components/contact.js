@@ -6,7 +6,7 @@ class contact extends Component {
   render() {
     return (
       <div style={{ textAlign: "center" }}>
-        <Row>
+        {/* <Row>
           <Col>
             <img src={logo} alt="logo" height="300px" style={{ marginTop: "120px" }} />
           </Col>
@@ -19,7 +19,9 @@ class contact extends Component {
         <a href={"mailto:liberationnyc269@gmail.com"}>liberationnyc269@gmail.com</a>
         <p>Location: NYC</p>
         <Button variant="outline-danger" href={"https://www.instagram.com/liberationnyc/"} rel="noopener noreferrer" target="_blank">Instagram</Button>
-        <Button variant="outline-danger" href={"https://www.facebook.com/LiberationNYC/"} rel="noopener noreferrer" target="_blank">Facebook</Button>
+        <Button variant="outline-danger" href={"https://www.facebook.com/LiberationNYC/"} rel="noopener noreferrer" target="_blank">Facebook</Button> */}
+
+        <p>Ditching this bye bye.</p>
 
       </div>
     )
