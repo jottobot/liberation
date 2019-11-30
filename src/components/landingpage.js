@@ -8,7 +8,7 @@ class Landing extends Component {
   render() {
     return (
       <div style={{ textAlign: "center", marginTop: "50px" }}>
-        <img src={logo} alt="logo" />
+        <img src={logo} alt="logo" style={{ width: "420px"}} />
 
         <Row style={{ backgroundColor: "black", paddingTop: "50px" }}>
           <Col>
@@ -16,9 +16,9 @@ class Landing extends Component {
           </Col>
         </Row>
 
-        <Row style={{ padding: "80px", backgroundColor: "black", paddingBottom: "50px" }}>
+        <Row style={{ padding: "30px", backgroundColor: "black", paddingBottom: "50px" }}>
           <Col>
-            <p style={{ marginTop: "80px", color: "white", fontFamily: "'Quicksand', sans-serif", fontSize: "35px", textTransform: "uppercase" }}>Established in NYC, 2019</p>
+            <p style={{ marginTop: "80px", color: "white", fontFamily: "'Quicksand', sans-serif", fontSize: "35px", textTransform: "uppercase", lineHeight: "35px" }}>Established in NYC, 2019</p>
           </Col>
           <Vertline />
           <Col>
@@ -34,10 +34,10 @@ class Landing extends Component {
 
         <Row style={{ marginBottom: "100px" }}>
           <Col>
-            <p style={{ fontFamily: "'Quicksand', sans-serif", fontSize: "35px", marginTop: "30px" }}>social</p>
-            <Button variant="outline-danger" href={"https://www.facebook.com/LiberationNYC/"} rel="noopener noreferrer" target="_blank">Facebook</Button>
+            <p style={{ fontFamily: "'Quicksand', sans-serif", fontSize: "35px", marginTop: "30px", marginBottom: "30px" }}>social</p>
+            <Button variant="outline-danger" href={"https://www.facebook.com/LiberationNYC/"} rel="noopener noreferrer" target="_blank" style= {{fontFamily: "'Quicksand', sans-serif", textTransform: "uppercase", marginBottom: "20px"}}>Facebook</Button>
             <br />
-            <Button variant="outline-danger" href={"https://www.instagram.com/liberationnyc/"} rel="noopener noreferrer" target="_blank">Instagram</Button>
+            <Button variant="outline-danger" href={"https://www.instagram.com/liberationnyc/"} rel="noopener noreferrer" target="_blank" style= {{fontFamily: "'Quicksand', sans-serif", textTransform: "uppercase"}}>Instagram</Button>
 
             {/* <FaFacebookSquare href={"https://www.facebook.com/LiberationNYC/"} rel="noopener noreferrer" target="_blank" style={{ color: "red", fontSize: "80px", marginBottom: "20px", marginTop: "40px" }} />
 
@@ -45,12 +45,12 @@ class Landing extends Component {
 
           </Col>
           <Col>
-            <p style={{fontFamily: "'Quicksand', sans-serif", fontSize: "35px", marginTop: "30px"}}>contact</p>
-            <a href={"mailto:liberationnyc269@gmail.com"} style={{ color: "red" }}>liberationnyc269@gmail.com</a>
+            <p style={{fontFamily: "'Quicksand', sans-serif", fontSize: "35px", marginTop: "30px",  marginBottom: "30px"}}>contact</p>
+            <a href={"mailto:liberationnyc269@gmail.com"} style={{ color: "red", fontFamily: "'Quicksand', sans-serif", textTransform: "uppercase", paddingRight: "7px"}}>liberationnyc269@gmail.com</a>
           </Col>
           <Col>
-            <p style={{fontFamily: "'Quicksand', sans-serif", fontSize: "35px", marginTop: "30px"}}>volunteer</p>
-            <Button variant="outline-danger" href={"https://docs.google.com/forms/d/1TyabJOY_xmNMaFmoBhJ6mVmGXI5gvfqb5SQvdBGRiV0/edit?fbclid=IwAR2PnuJTMKoxOxl7k1zgaMKEkl3lUoSkGSHZmBznLAqPboCYfCF9taZXvXg"} rel="noopener noreferrer" target="_blank">Volunteer</Button>
+            <p style={{fontFamily: "'Quicksand', sans-serif", fontSize: "35px", marginTop: "30px",  marginBottom: "30px"}}>volunteer</p>
+            <Button variant="outline-danger" href={"https://docs.google.com/forms/d/1TyabJOY_xmNMaFmoBhJ6mVmGXI5gvfqb5SQvdBGRiV0/edit?fbclid=IwAR2PnuJTMKoxOxl7k1zgaMKEkl3lUoSkGSHZmBznLAqPboCYfCF9taZXvXg"} rel="noopener noreferrer" target="_blank" style= {{fontFamily: "'Quicksand', sans-serif", textTransform: "uppercase"}}>Volunteer</Button>
           </Col>
         </Row>
 

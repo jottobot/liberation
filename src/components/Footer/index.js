@@ -4,7 +4,7 @@ import "./style.css";
 function Footer() {
   return (
     <footer className="footer">
-      <span>Liberation NYC</span>
+      <span style ={{ fontFamily: "'Quicksand', sans-serif", paddingBottom: "5px"}}>LIBERATION NYC</span>
     </footer>
   );
 }

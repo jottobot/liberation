@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import { Row, Col, Button } from "react-bootstrap";
-import logo from "../images/cc2ceddd-9283-4761-8483-fb43ced6e080.JPG";
+// import { Row, Col, Button } from "react-bootstrap";
+// import logo from "../images/cc2ceddd-9283-4761-8483-fb43ced6e080.JPG";
 
 class contact extends Component {
   render() {
