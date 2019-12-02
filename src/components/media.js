@@ -12,7 +12,7 @@ class media extends Component {
         <Col>
           <img src={logo} alt="logo" height="300px" style= {{ marginTop: "120px"}} />
         </Col>
-        <Col lg={6} xs={12} style={{ backgroundColor: "black", height: "560px" }}>
+        <Col lg={6} xs={12} style={{ backgroundColor: "orange", height: "560px" }}>
             <h1 className="header" style={{ color: "white", marginTop: "210px", textTransform: "uppercase", fontFamily: "'Montserrat', sans-serif", letterSpacing: ".6px" }}>Media</h1>
         </Col>
       </Row>
