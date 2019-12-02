@@ -4,7 +4,6 @@ import { Switch, Route } from "react-router-dom";
 import events from "./events";
 import media from "./media";
 import volunteer from "./volunteer";
-import contact from "./contact";
 
 const Main = () => (
   <Switch>
