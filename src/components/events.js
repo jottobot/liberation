@@ -6,7 +6,7 @@ import cube from "../images/64bda2ae-afb0-4b6e-9ab0-4055a7cad50d.JPG";
 import liberation from "../images/73539247_153334132699986_1814360293690572800_o.jpg";
 import pic from "../images/Screen Shot 2019-11-27 at 11.52.16 AM.png";
 import logo from "../images/cc2ceddd-9283-4761-8483-fb43ced6e080.JPG";
-import "./events.css";
+// import "./events.css";
 
 class events extends Component {
   render() {

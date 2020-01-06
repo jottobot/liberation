@@ -14,6 +14,8 @@ function App() {
           <Link to="/events">Events</Link>
           <Link to="/volunteer">Volunteer</Link>
           <Link to="/media">Media</Link>
+          <Link to="/register">Register</Link>
+          <Link to="/alcnyc">ALC NYC</Link>
         </Navigation>
       </Header>
       <Drawer title={<Link style={{ textDecoration: 'none', color: 'black', textTransform: "uppercase", fontFamily: "'Montserrat', sans-serif" }} to="/">Liberation NYC</Link>}>
@@ -21,6 +23,8 @@ function App() {
           <Link to="/events">Events</Link>
           <Link to="/volunteer">Volunteer</Link>
           <Link to="/media">Media</Link>
+          <Link to="/register">Register</Link>
+          <Link to="/alcnyc">ALC NYC</Link>
         </Navigation>
       </Drawer>
       <Content>

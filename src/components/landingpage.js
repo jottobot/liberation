@@ -46,7 +46,7 @@ class Landing extends Component {
           </Col>
           <Col>
             <p style={{fontFamily: "'Quicksand', sans-serif", fontSize: "35px", marginTop: "30px",  marginBottom: "30px"}}>contact</p>
-            <a href={"mailto:liberationnyc269@gmail.com"} style={{ color: "red", fontFamily: "'Quicksand', sans-serif", textTransform: "uppercase", paddingRight: "7px"}}>liberationnyc269@gmail.com</a>
+            <a href={"mailto:liberationnyc269@gmail.com"} style={{ color: "red", fontFamily: "'Quicksand', sans-serif", textTransform: "uppercase", paddingRight: "7px"}}>info@liberationnyc.com</a>
           </Col>
           <Col>
             <p style={{fontFamily: "'Quicksand', sans-serif", fontSize: "35px", marginTop: "30px",  marginBottom: "30px"}}>volunteer</p>
